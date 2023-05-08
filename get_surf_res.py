@@ -56,8 +56,8 @@ for pdbin in glob.glob(args.cleanpdbs+"*.clean.pdb"):
             core_selector.set_angle_exponent(1.0)
             core_selector.set_angle_shift_factor(0.8)
             core_selector.set_dist_exponent(0.2)
-            core_selector.set_sc_neighbor_dist_midpoint(30.0)
-            core_selector.set_cutoffs(40.0, 2.0)
+            core_selector.set_sc_neighbor_dist_midpoint(32.0)
+            core_selector.set_cutoffs(50.0, 2.0)
         else:
             core_selector.set_angle_exponent(0.95)
             core_selector.set_angle_shift_factor(0.75)
